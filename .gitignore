@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+grocery-app/node_modules/
+
+
+# Expo & Build Artifacts
+.expo/
+grocery-app/.expo/
+dist/
+grocery-app/dist/
+web-build/
+grocery-app/web-build/
+expo-env.d.ts
+grocery-app/expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro & Logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS & OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# Local env files
+.env*.local
+
+# Generated native folders
+/ios
+/android
+grocery-app/ios
+grocery-app/android

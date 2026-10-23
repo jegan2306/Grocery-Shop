@@ -1,0 +1,19 @@
+{
+  "name": "grocery-app-workspace",
+  "version": "1.0.0",
+  "description": "Modern Grocery Shop - React Native Mobile App",
+  "scripts": {
+    "start": "npm start --prefix grocery-app",
+    "web": "npm run web --prefix grocery-app",
+    "android": "npm run android --prefix grocery-app",
+    "ios": "npm run ios --prefix grocery-app"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "grocery-app",
+    "react-navigation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
